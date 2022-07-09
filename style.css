@@ -1,0 +1,53 @@
+*{ 
+    box-sizing:border-box; 
+  }
+  body{
+    font-size: 12px;
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-shadow:0 0 2px #aaa;
+  }
+  
+  .key-row {
+    display:flex;
+    margin:0 auto 5px;
+    line-height:50px;
+  }
+
+  .key{
+    background:rgb(44, 40, 40);
+    margin:0 5px 0 0; 
+    text-align:center;
+    border-radius:9px;
+  }
+
+  .one { flex:1; } 
+
+  .one-one-half { flex:1.5; } 
+
+  .two { flex:2; } 
+
+  .two-two-half { flex:2.5; } 
+
+  .three { flex:3; } 
+
+  .five { flex:5; }
+
+  .half{ flex:.5;}
+  
+  .keyboard {
+    position: relative;
+    top: 60px;
+    margin:50px auto;
+    width:95%;
+    height:400px;
+    background:rgb(148, 148, 148);
+    padding:30px 30px;
+    border-radius:20px;
+    border-bottom:20px solid #999;
+  }
+  
+  .key:hover{
+    box-shadow:0 0 10px 0 black;
+    font-size: 200%;
+  }
